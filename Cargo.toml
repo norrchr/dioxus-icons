@@ -1,0 +1,15 @@
+[workspace]
+resolver = "2"
+members = [ "example",
+    "packages/cli",
+    "packages/icons",
+    "example"
+]
+default-members = ["packages/cli"]
+
+[workspace.package]
+version = "0.1.0"
+edition = "2021"
+
+[workspace.dependencies]
+dioxus = { version = "0.7.0-alpha.3" }

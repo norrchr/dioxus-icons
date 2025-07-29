@@ -1,0 +1,17 @@
+{
+    "resource_path": "icon_resources",
+    "resources": [
+        {
+            "name": "heroicons",
+            "url": "https://github.com/tailwindlabs/heroicons.git",
+            "rev": "master",
+            "srcs": ["src"] 
+        },
+        {
+            "name": "materialicons",
+            "url": "https://github.com/google/material-design-icons.git",
+            "rev": "master",
+            "srcs": ["src"]
+        }
+    ]
+}

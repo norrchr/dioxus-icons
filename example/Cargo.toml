@@ -1,0 +1,9 @@
+[package]
+name = "dioxus-icons-example"
+publish = false
+version.workspace = true
+edition.workspace = true
+
+[dependencies]
+dioxus = { workspace = true }
+dioxus-icons = { path = "../packages/icons", default-features = false, features = ["heroicons", "material-icons"] }

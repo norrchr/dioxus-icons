@@ -1,0 +1,10 @@
+#[cfg(feature = "material-icons-sharp")]
+pub mod sharp;
+#[cfg(feature = "material-icons-twotone")]
+pub mod twotone;
+#[cfg(feature = "material-icons-outlined")]
+pub mod outlined;
+#[cfg(feature = "material-icons")]
+pub mod icons;
+#[cfg(feature = "material-icons-round")]
+pub mod round;

@@ -1,0 +1,16 @@
+[package]
+name = "dioxus-icons"
+version.workspace = true
+edition.workspace = true
+
+[dependencies]
+dioxus = { version = "0.7.0-alpha.3" }
+
+[features]
+default = []
+heroicons = []
+material-icons = []
+material-icons-outlined = []
+material-icons-round = []
+material-icons-sharp = []
+material-icons-twotone = []
